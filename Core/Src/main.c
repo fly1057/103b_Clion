@@ -102,7 +102,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
     HAL_UART_Transmit(&huart1,(uint8_t *)"Hello World!\r\n",12,HAL_MAX_DELAY);
-    HAL_Delay(1000);
+    HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
